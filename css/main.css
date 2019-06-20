@@ -1,0 +1,19 @@
+.game__cell {
+    min-height: 150px;
+}
+
+.game__cell--blue {
+    background-color: lightblue;
+}
+
+.game__cell--red {
+    background-color: lightcoral;
+}
+
+.current-player--blue {
+    color: blue;
+}
+
+.current-player--red {
+    color: red;
+}
