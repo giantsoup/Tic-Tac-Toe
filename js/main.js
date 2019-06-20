@@ -34,25 +34,24 @@
 
     function checkForWin($currentPlayer, $cell) {
         console.log('Checking For Win');
-        // get list of checks
-        // loop over checks
-        //     switch check
-        //         case row
-        //             loop over row
-        //             break
-        //         case column
-        //             loop over column
-        //             break
-        //         case backdiag
-        //             loop over back slash diagonal
-        //             break
-        //         case fordiag
-        //             loop over forward slash diagonal
-        //             break
-        //         default
-        //         do default stuff
-        //     hctiws
-        // pool
+
+        // get position of current $cell
+        // check all positions adjacent and diagonal to current $cell
+        // foreach position
+        //     if adjacent cell is owned by current player
+        //         cellCount++
+        //         if cellCount == winCondition
+        //             current player wins game
+        //             end game()
+        //         else
+        //             check adjacent cell in the same direction
+        //             run same check we did the first time
+        //         endif
+        //     else
+        //         there is no winner yet
+        //         continue to check next position
+        //     endif
+        // endforeach
     }
 
     function switchPlayer($currentPlayer) {
